@@ -28,5 +28,8 @@
     "prepublishOnly": "cargo build-wasi --release"
   },
   "files": [],
-  "packageManager": "yarn@3.3.1"
+  "packageManager": "yarn@3.3.1",
+  "peerDependencies": {
+    "@lingui/macro": ">4"
+  }
 }
